@@ -7,10 +7,27 @@
 
 <body>
     <form>
-        <input type="text">
+        <input type="text" required> <!--"required" para deixar o campo obrigatório-->
         <input type="number">
-        <input type="email">
+        <input type="email" required>
         <input type="password">
+        <input type="file">
+        <input type="datetime-local">
+        <input type="color">
+        <input type="checkbox">
+        <input type="radio" name="radio"> <!--tipo diferente de checagem-->
+        <input type="radio" name="radio"> <!--tendo o mesmo nome, só será possível deixar uma das opções marcadas-->
+        <input type="range">
+        <select> <!--campo de seleção-->
+            <option value="">opção 01</option>
+            <option value="">opção 02</option>
+            <option value="">opção 03</option>
+        </select> <!--campo de seleção-->
+        <textarea name="" id="" cols="30" rows="10" minlength="15" maxlength="200"></textarea> <!--caixa de texto mais elaborada-->
+        <hr>
+        <input type="hidden"> <!--campo que pode ser usado para guardar informações sem ser visto-->
+        <input type="button" value="Explodir">
+        <button type="submit">Enviar</button>
     </form>
 </body>
 
