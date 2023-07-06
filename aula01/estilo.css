@@ -1,0 +1,25 @@
+  @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.titulo
+{
+    background-color: #000000; 
+    font-family: 'UnifrakturCook', cursive;
+    color: #FFFF;
+}
+
+.lista2
+{
+    background-color: #F5E951;
+    color: red;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.lista1
+{
+    background-color: #f89359;
+    color: #850085;    
+    font-family: 'Pacifico', cursive;
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+html {
+    background-color: #eeeeee;
+    /* background-image: url(narutinho.jpg); */
+    /* background-repeat: repeat; */
+}
+
+.img-fisica {
+    min-width: 250px;
+    max-width: 450px;
+    width: 450px;
+
+    min-height: 300px;
+    max-height: 500px;
+    height: 500px;
+
+    border: orange 4px solid;
+    border-radius: 10px;
+}
+
+.img-fisica2 {
+    min-width: 250px;
+    max-width: 450px;
+    width: 450px;
+
+    min-height: 300px;
+    max-height: 500px;
+    height: 500px;
+
+    border: orange 4px solid;
+    border-radius: 10px;
+}
+
+.titulo1 {
+    font-family: 'UnifrakturCook', cursive;
+    text-decoration: underline;
+    color: black;
+    width: 300px;
+    margin: auto;
+}
+
+.titulo2 {
+    font-family: 'UnifrakturCook', cursive;
+    margin: auto;
+}
+
+.lista1 {
+    color: red;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.lista2 {
+    color: #850085;
+    font-family: 'Pacifico', cursive;
+}
+
+.ingredientes {
+    background-color: silver;
+    box-shadow: -1px -1px 5px black;
+    width: 235px;
+    border-radius: 8px;
+}
+
+.preparo {
+    background-color: silver;
+    box-shadow: -1px -1px 5px black;
+    width: 450px;
+    border-radius: 8px;
+}
+
+.titulo3 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 12px;
+}
+
+.aside1 {
+    width: 16.5%;
+    background-color: #f89359;
+    box-shadow: 1px -1px 5px black;
+    border-radius: 8px;
+}
+
+.lista3 {
+    color: black;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 12px;
+}
+
+.session2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article1 {
+    font-family: 'UnifrakturCook', cursive;
+    background-color: pink;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 8px;
+    font-size: 25px;
+    width: 530px;
+}
+
+footer {
+    font-family: 'Caveat', cursive;
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}

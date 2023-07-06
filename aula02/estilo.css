@@ -1,0 +1,21 @@
+.titulo
+{
+    color: green;
+}
+
+#PP
+{
+    background-color: yellow;
+}
+
+.paragrafo
+{
+    background-color: aqua;
+}
+
+p
+{
+    background-color: orange;
+    color: purple;
+    font-family: system-ui,'Open Sans'; 
+}
