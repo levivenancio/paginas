@@ -7,9 +7,11 @@
 
 <body>
     <form>
-        <input type="text" required> <!--"required" para deixar o campo obrigatório-->
-        <input type="number">
-        <input type="email" required>
+        <label for="nomecompleto">Nome Completo</label> <!--"Título" do campo-->
+        <input type="text" name="nomecompleto" required> <!--"required" para deixar o campo obrigatório-->
+
+        <input type="number" min="0">
+        <input type="email" required placeholder="email@email.com"> <!--"placeholder" é tipo um exemplo que irá aparecer no campo do que deve ser digitado-->
         <input type="password">
         <input type="file">
         <input type="datetime-local">
@@ -24,7 +26,7 @@
             <option value="">opção 03</option>
         </select> <!--campo de seleção-->
         <textarea name="" id="" cols="30" rows="10" minlength="15" maxlength="200"></textarea> <!--caixa de texto mais elaborada-->
-        <hr>
+        <hr> <!--Linha divisória na página-->
         <input type="hidden"> <!--campo que pode ser usado para guardar informações sem ser visto-->
         <input type="button" value="Explodir">
         <button type="submit">Enviar</button>
