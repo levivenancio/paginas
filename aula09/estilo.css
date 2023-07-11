@@ -1,0 +1,32 @@
+html {
+    height: 1000px;
+}
+
+div {
+    width: 300px;
+    padding: 50px;
+}
+
+.div1 {
+    position: static;
+    background-color: orange;
+}
+
+.div2 {
+    background-color: black;
+}
+
+.div3 {
+    background-color: yellow;
+
+}
+
+.div4 {
+    width: 600px;
+    background-color: red;
+}
+
+.div5 {
+    width: 100px;
+    background-color: black;
+}
