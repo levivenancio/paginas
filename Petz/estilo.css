@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/*Definir propriedades globais */
+html {
+    background-color: #fbfbfb;
+}
+
+.logomarca {
+    width: 12vw;
+}
+
+.titulo {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 4rem;
+    color: #33303e;
+}
+
+.descricao {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #4e4b59
+}
+
+
+/* */
+.cabecalho {
+    padding: 32px 0px;
+    box-shadow: 0px 1px 10px #0000001a;
+}
+
+.menu {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-navegacao {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+/* ul.links-navegacao > li > a*/
+.links-navegacao li a {
+    padding: 16px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #4e4b59;
+    text-decoration: none;
+}
+
+li.registrar a {
+    color: #ff6e22;
+}
+
+li.registrar a:hover {
+    font-size: 1.6rem;
+    padding: 0 10px;
+    transition: 0.3s ease;
+}
+
+/*Corpo Principal */
+
+.corpo {
+    padding: 48px 0px;
+}
+
+.botao-principal {
+    font-size: 19px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #f5f5f5;
+    background-color: #ff950d;
+    border: 1px #f5f5f5;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 16px 32px; /*top e bottom 16, right e left 32*/
+}
+
+.botao-principal:hover {
+    background-color: #ff6e22;
+}
+
+.fotos-esquerda img {
+    width: 10vw;
+    border-radius: 8px;
+}
+
+.fotos-direita img {
+    width: 22vw;
+    border-radius: 8px;
+}
+
+.imagens-petz {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 30px;
+}
+
+.painel-principal {
+    width: 85%;
+    margin: 0 auto;
+    
+    /* Forçando um novo falor pro bottom */
+    margin-bottom: 128px ;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fotos-esquerda, .fotos-direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.anuncio-petz {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /*para o botão não crescer */
+    gap: 30px;
+}
+
+/* Seção de perfil */
+
+.tipos-perfil{
+    padding: 48px 0;
+    background-color: #ff880026;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tipos-perfil h2{
+    width: 52%;
+    text-align: center;
+}
+
+.cards-container{
+    width: 70%;
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-de-perfil{
+    width: 28vw;
+    padding: 32px;
+    border-radius: 10px;
+    background-color: #FBFBFB;
+    box-shadow: 2px 2px 15px #4E4B5926;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-de-perfil img{
+    width: 16vw;
+}
+
+.conteudo-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link-card{
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 16px;
+
+    color: #0088AE;
+}
+
+.link-roxo{
+    color: #A944FF;
+}
