@@ -87,7 +87,8 @@ li.registrar a:hover {
     border: 1px #f5f5f5;
     border-radius: 10px;
     cursor: pointer;
-    padding: 16px 32px; /*top e bottom 16, right e left 32*/
+    padding: 16px 32px;
+    /*top e bottom 16, right e left 32*/
 }
 
 .botao-principal:hover {
@@ -107,16 +108,16 @@ li.registrar a:hover {
 .imagens-petz {
     display: flex;
     flex-direction: row;
-    
+
     gap: 30px;
 }
 
 .painel-principal {
     width: 85%;
     margin: 0 auto;
-    
+
     /* Forçando um novo falor pro bottom */
-    margin-bottom: 128px ;
+    margin-bottom: 128px;
 
     display: flex;
     flex-direction: row;
@@ -124,7 +125,8 @@ li.registrar a:hover {
     justify-content: space-between;
 }
 
-.fotos-esquerda, .fotos-direita {
+.fotos-esquerda,
+.fotos-direita {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -134,13 +136,14 @@ li.registrar a:hover {
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /*para o botão não crescer */
+    align-items: flex-start;
+    /*para o botão não crescer */
     gap: 30px;
 }
 
 /* Seção de perfil */
 
-.tipos-perfil{
+.tipos-perfil {
     padding: 48px 0;
     background-color: #ff880026;
 
@@ -149,12 +152,12 @@ li.registrar a:hover {
     align-items: center;
 }
 
-.tipos-perfil h2{
+.tipos-perfil h2 {
     width: 52%;
     text-align: center;
 }
 
-.cards-container{
+.cards-container {
     width: 70%;
     margin-top: 48px;
 
@@ -163,7 +166,7 @@ li.registrar a:hover {
     justify-content: space-between;
 }
 
-.card-de-perfil{
+.card-de-perfil {
     width: 28vw;
     padding: 32px;
     border-radius: 10px;
@@ -176,11 +179,11 @@ li.registrar a:hover {
     justify-content: space-evenly;
 }
 
-.card-de-perfil img{
+.card-de-perfil img {
     width: 16vw;
 }
 
-.conteudo-card{
+.conteudo-card {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -188,7 +191,7 @@ li.registrar a:hover {
     justify-content: space-evenly;
 }
 
-.link-card{
+.link-card {
     font-size: 22px;
     font-weight: 600;
     text-decoration: underline;
@@ -197,6 +200,108 @@ li.registrar a:hover {
     color: #0088AE;
 }
 
-.link-roxo{
+.link-roxo {
     color: #A944FF;
+}
+
+/* Seção dos pilares */
+
+.valores-da-plataforma {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sobre-os-valores {
+    width: 50%;
+}
+
+.sobre-os-valores p {
+    margin-top: 30px;
+}
+
+.valores-topicos {
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.coluna-valores {
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pilar {
+    margin: 32px;
+
+    text-align: center;
+}
+
+.pilar p {
+    margin-top: 18px;
+    font-weight: 500;
+}
+
+.box-pilar {
+    font-size: 32px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    color: #f5f5f5;
+    box-shadow: 0px 4px 15px #00000033;
+}
+
+span.laranja {
+    background-color: #FF8800;
+}
+
+span.azul {
+    background-color: #0088AE;
+}
+
+span.roxo {
+    background-color: #A944FF;
+}
+
+/* Rodape */
+
+.rodape {
+    background-color: #0088AE;
+}
+
+.conteudo-rodape {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 8px;
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #f5f5f5;
+}
+
+.copyright{
+    padding-bottom: 16px;
+    text-align: center;
+    color: #f5f5f5;
 }
