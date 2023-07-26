@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #FBFBFB;
+}
+
+.logo {
+    width: 15vw;
+}
+
+/* cabeçalho */
+
+.header {
+    padding: 41px 0px;
+    box-shadow: 0px 1px 10px;
+    background-color: #8027B3;
+}
+
+.nav {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    gap: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+.links li a {
+    padding: 10px;
+    font-size: 2rem;
+    color: #F1F0F5;
+    text-decoration: none;
+}
+
+li.cadastrar a {
+    padding: 14px 4px;
+    border-radius: 8000px;
+    background-color: #FFBC44;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+li.cadastrar a:hover {
+    padding: 20px 6px;
+    border-radius: 8000px;
+    transition: 0.3s ease;
+}
+
+/* corpo */
+
+/* Primeira seção */
+.sec-1 {
+    padding: 80px 0px;
+    background-color: #FFDDA1;
+}
+
+.sec-um {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sec-um img {
+    width: 42vw;
+    border-radius: 15px;
+}
+
+.titulo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 53px;
+    font-weight: bold;
+    color: #33303E;
+}
+
+.descricao {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    line-height: 2.5rem;
+}
+
+.grupo-1 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    text-align: center;
+}
+
+.botao-1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #F1F0F5;
+    background-color: #8027B3;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+    padding: 13px 70px;
+}
+
+/* Segunda seção */
+
+.sec-2-1 {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 45px 0px;
+}
+
+.sec-2-1 img {
+    width: 22vw;
+    height: 55vh;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.grupo-2 {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.descricao2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 31px;
+    line-height: 2.5rem;
+}
+
+.botao-2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #8027B3;
+    border: 3px solid #8027B3;
+    background: #FBFBFB;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+    padding: 13px 70px;
+}
+
+.sec-2-2 {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 45px 0px;
+}
+
+.sec-2-2 img {
+    width: 22vw;
+    height: 57vh;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.grupo-3 {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.descricao3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 31px;
+    line-height: 2.5rem;
+    text-align: right;
+}
+
+/* Terceira seção */
+
+.sec-3 {
+    padding: 48px 0px;
+    background-color: #D4B6E5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containers {
+    width: 83%;
+    margin-top: 75px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 38vw;
+    height: 84vh;
+    padding: 32px;
+    border-radius: 18px;
+    background-color: #E1E0E7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.cards img {
+    width: 33vw;
+    border-radius: 8px;
+}
+
+.homem-gato {
+    height: 49.1vh;
+}
+
+.depoimento {
+    width: 33vw;
+    font-size: 23px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nomes {
+    color: #8027B3;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+/* Rodapé */
+
+.footer {
+    background-color: #5F5C6B;
+}
+
+.rodape {
+    width: 85%;
+    margin: 0 auto;
+    padding: 41px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+
+    font-size: 22px;
+    color: #FBFBFB;
+}
+
+.copyright {
+    padding-bottom: 16px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+/* Responsividade */
+
+@media (max-width: 1024px) {
+
+    /* Primeira seção */
+
+    .nav {
+        width: 90%;
+    }
+
+    .logo {
+        width: 24vw;
+    }
+
+    .links li a {
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    li.cadastrar a {
+        padding: 10px 4px;
+    }
+
+    li.cadastrar a:hover {
+        padding: 15px 6px;
+    }
+
+    .titulo {
+        font-size: 45px;
+    }
+
+    .descricao {
+        font-size: 22px;
+        line-height: 2.2rem;
+    }
+
+    .sec-um {
+        width: 90%;
+    }
+
+    .sec-um img {
+        width: 50vw;
+    }
+
+    .botao-1 {
+        font-size: 22px;
+        padding: 10px 50px;
+    }
+
+    /* Segunda seção */
+
+    .descricao2 {
+        font-size: 22px;
+        line-height: 2.2rem;
+    }
+
+    .descricao3 {
+        font-size: 22px;
+        line-height: 2.2rem;
+    }
+
+    .botao-2 {
+        font-size: 22px;
+        padding: 8px 45px;
+    }
+
+    .sec-2-1 img {
+        width: 22vw;
+        height: 46vh;
+    }
+
+    .sec-2-2 img {
+        width: 22vw;
+        height: 45vh;
+    }
+
+    /* Terceira seção */
+
+    .cards img {
+        width: 28.2vw;
+    }
+
+    .depoimento {
+        width: 28vw;
+        font-size: 18px;
+    }
+
+    .redes-sociais {
+        font-size: 18px;
+    }
+
+    .copyright{
+        font-size: 12px;
+    }
+}
